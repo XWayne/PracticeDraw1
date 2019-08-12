@@ -6,7 +6,16 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 
+/**
+ * 位置距离基本写死，只是为了展示基本效果
+ */
 public class Practice10HistogramView extends View {
+
+    private float mRectWidth = 40f;
+    private float mGapWidth = 6f;
+    private final float MAX_HEIGHT = 120f;
+    private float pX = 200f;
+    private float pY = 2 * MAX_HEIGHT;
 
     public Practice10HistogramView(Context context) {
         super(context);
